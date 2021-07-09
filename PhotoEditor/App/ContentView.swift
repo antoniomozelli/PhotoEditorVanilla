@@ -24,6 +24,7 @@ struct ContentView: View {
     @State private var inputImage: UIImage?
     @State private var processedImage: UIImage?
     
+    
     @State var currentFilter: CIFilter =  CIFilter.sepiaTone()
     let context = CIContext()
     
@@ -163,8 +164,9 @@ struct ContentView: View {
                 let tempImage = tempContext.createCGImage(ciImage, from: CGRect(x: 0, y: 0, width: CVPixelBufferGetWidth(predictionOutput.stylizedImage), height: CVPixelBufferGetHeight(predictionOutput.stylizedImage)))
                 let uiImage = UIImage(cgImage: tempImage!)
                 //imageAntonio = Image(uiImage: uiImage)
-                image = Image(uiImage: uiImage)
-                processedImage = uiImage
+                let preImage = uiImage.resize(to: img!.size)
+                image = Image(uiImage: preImage!)
+                processedImage = preImage
                 //loadImage()
             }catch let error as NSError {
                 print("CoreML Model Error: \(error)")

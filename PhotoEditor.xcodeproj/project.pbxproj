@@ -20,6 +20,7 @@
 		D1E7E84E2690DF72008BA8C8 /* ImagePicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1E7E84D2690DF72008BA8C8 /* ImagePicker.swift */; };
 		D1E7E8502690DFB8008BA8C8 /* ImageSaver.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1E7E84F2690DFB8008BA8C8 /* ImageSaver.swift */; };
 		D1E7E8522690E031008BA8C8 /* starynight.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = D1E7E8512690E031008BA8C8 /* starynight.mlmodel */; };
+		D1FD35C32698E158000050AF /* resizeImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1FD35C22698E158000050AF /* resizeImage.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -38,6 +39,7 @@
 		D1E7E84D2690DF72008BA8C8 /* ImagePicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImagePicker.swift; sourceTree = "<group>"; };
 		D1E7E84F2690DFB8008BA8C8 /* ImageSaver.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageSaver.swift; sourceTree = "<group>"; };
 		D1E7E8512690E031008BA8C8 /* starynight.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = starynight.mlmodel; sourceTree = "<group>"; };
+		D1FD35C22698E158000050AF /* resizeImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = resizeImage.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,6 +100,7 @@
 				D1E7E841268EA427008BA8C8 /* OnboardingView.swift */,
 				D1E7E84D2690DF72008BA8C8 /* ImagePicker.swift */,
 				D1E7E84F2690DFB8008BA8C8 /* ImageSaver.swift */,
+				D1FD35C22698E158000050AF /* resizeImage.swift */,
 			);
 			path = App;
 			sourceTree = "<group>";
@@ -206,6 +209,7 @@
 				D1E7E84C268FD6AF008BA8C8 /* LogoView.swift in Sources */,
 				D1E7E8502690DFB8008BA8C8 /* ImageSaver.swift in Sources */,
 				D1E7E8522690E031008BA8C8 /* starynight.mlmodel in Sources */,
+				D1FD35C32698E158000050AF /* resizeImage.swift in Sources */,
 				D1E7E83E268E8786008BA8C8 /* onboardingCardView.swift in Sources */,
 				D1E7E84A268F6813008BA8C8 /* OnboardingData.swift in Sources */,
 			);
