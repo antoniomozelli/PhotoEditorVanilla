@@ -17,7 +17,7 @@ struct PhotoEditorApp: App {
             if isOboarding{
                 OnboardingView()
             }else{
-                ContentView()
+                MainView()
             }
             
         }

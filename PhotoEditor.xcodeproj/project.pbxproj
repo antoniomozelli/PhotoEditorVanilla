@@ -21,6 +21,19 @@
 		D1E7E8502690DFB8008BA8C8 /* ImageSaver.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1E7E84F2690DFB8008BA8C8 /* ImageSaver.swift */; };
 		D1E7E8522690E031008BA8C8 /* starynight.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = D1E7E8512690E031008BA8C8 /* starynight.mlmodel */; };
 		D1FD35C32698E158000050AF /* resizeImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1FD35C22698E158000050AF /* resizeImage.swift */; };
+		D1FD35C526A080FB000050AF /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1FD35C426A080FB000050AF /* MainView.swift */; };
+		D1FD35C726A081CA000050AF /* CameraView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1FD35C626A081CA000050AF /* CameraView.swift */; };
+		D1FD35C926A081F2000050AF /* GalleryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1FD35C826A081F2000050AF /* GalleryView.swift */; };
+		D1FD35CB26A0820D000050AF /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1FD35CA26A0820D000050AF /* SettingsView.swift */; };
+		D1FD35CD26A0ABAF000050AF /* CoverImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1FD35CC26A0ABAF000050AF /* CoverImageView.swift */; };
+		D1FD35CF26A0BFE7000050AF /* covers.json in Resources */ = {isa = PBXBuildFile; fileRef = D1FD35CE26A0BFE7000050AF /* covers.json */; };
+		D1FD35D126A0C058000050AF /* coverImageModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1FD35D026A0C058000050AF /* coverImageModel.swift */; };
+		D1FD35D426A0CA0B000050AF /* CodableBundleExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1FD35D326A0CA0B000050AF /* CodableBundleExtension.swift */; };
+		D1FD35D626A0D485000050AF /* FiltersView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1FD35D526A0D485000050AF /* FiltersView.swift */; };
+		D1FD35D826A0FC73000050AF /* filters.json in Resources */ = {isa = PBXBuildFile; fileRef = D1FD35D726A0FC73000050AF /* filters.json */; };
+		D1FD35DA26A0FD08000050AF /* filterModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1FD35D926A0FD08000050AF /* filterModel.swift */; };
+		D1FD35DC26A10FF9000050AF /* filterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1FD35DB26A10FF9000050AF /* filterView.swift */; };
+		D1FD35DE26A12B69000050AF /* FilterGridItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1FD35DD26A12B69000050AF /* FilterGridItemView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -40,6 +53,19 @@
 		D1E7E84F2690DFB8008BA8C8 /* ImageSaver.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageSaver.swift; sourceTree = "<group>"; };
 		D1E7E8512690E031008BA8C8 /* starynight.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = starynight.mlmodel; sourceTree = "<group>"; };
 		D1FD35C22698E158000050AF /* resizeImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = resizeImage.swift; sourceTree = "<group>"; };
+		D1FD35C426A080FB000050AF /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
+		D1FD35C626A081CA000050AF /* CameraView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraView.swift; sourceTree = "<group>"; };
+		D1FD35C826A081F2000050AF /* GalleryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GalleryView.swift; sourceTree = "<group>"; };
+		D1FD35CA26A0820D000050AF /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
+		D1FD35CC26A0ABAF000050AF /* CoverImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoverImageView.swift; sourceTree = "<group>"; };
+		D1FD35CE26A0BFE7000050AF /* covers.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = covers.json; sourceTree = "<group>"; };
+		D1FD35D026A0C058000050AF /* coverImageModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = coverImageModel.swift; sourceTree = "<group>"; };
+		D1FD35D326A0CA0B000050AF /* CodableBundleExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CodableBundleExtension.swift; sourceTree = "<group>"; };
+		D1FD35D526A0D485000050AF /* FiltersView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FiltersView.swift; sourceTree = "<group>"; };
+		D1FD35D726A0FC73000050AF /* filters.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = filters.json; sourceTree = "<group>"; };
+		D1FD35D926A0FD08000050AF /* filterModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = filterModel.swift; sourceTree = "<group>"; };
+		D1FD35DB26A10FF9000050AF /* filterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = filterView.swift; sourceTree = "<group>"; };
+		D1FD35DD26A12B69000050AF /* FilterGridItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FilterGridItemView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -72,6 +98,7 @@
 		D1E7E82B268E3EF0008BA8C8 /* PhotoEditor */ = {
 			isa = PBXGroup;
 			children = (
+				D1FD35D226A0C9B3000050AF /* Extension */,
 				D1E7E8512690E031008BA8C8 /* starynight.mlmodel */,
 				D1E7E848268F67F1008BA8C8 /* Data */,
 				D1E7E845268F668D008BA8C8 /* Model */,
@@ -100,7 +127,11 @@
 				D1E7E841268EA427008BA8C8 /* OnboardingView.swift */,
 				D1E7E84D2690DF72008BA8C8 /* ImagePicker.swift */,
 				D1E7E84F2690DFB8008BA8C8 /* ImageSaver.swift */,
-				D1FD35C22698E158000050AF /* resizeImage.swift */,
+				D1FD35C426A080FB000050AF /* MainView.swift */,
+				D1FD35C626A081CA000050AF /* CameraView.swift */,
+				D1FD35C826A081F2000050AF /* GalleryView.swift */,
+				D1FD35CA26A0820D000050AF /* SettingsView.swift */,
+				D1FD35D526A0D485000050AF /* FiltersView.swift */,
 			);
 			path = App;
 			sourceTree = "<group>";
@@ -111,6 +142,9 @@
 				D1E7E83D268E8786008BA8C8 /* onboardingCardView.swift */,
 				D1E7E83F268E9776008BA8C8 /* StartButtonView.swift */,
 				D1E7E84B268FD6AF008BA8C8 /* LogoView.swift */,
+				D1FD35CC26A0ABAF000050AF /* CoverImageView.swift */,
+				D1FD35DB26A10FF9000050AF /* filterView.swift */,
+				D1FD35DD26A12B69000050AF /* FilterGridItemView.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -119,6 +153,8 @@
 			isa = PBXGroup;
 			children = (
 				D1E7E846268F66D0008BA8C8 /* OnboardingModel.swift */,
+				D1FD35D026A0C058000050AF /* coverImageModel.swift */,
+				D1FD35D926A0FD08000050AF /* filterModel.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -126,9 +162,20 @@
 		D1E7E848268F67F1008BA8C8 /* Data */ = {
 			isa = PBXGroup;
 			children = (
+				D1FD35D726A0FC73000050AF /* filters.json */,
+				D1FD35CE26A0BFE7000050AF /* covers.json */,
 				D1E7E849268F6813008BA8C8 /* OnboardingData.swift */,
 			);
 			path = Data;
+			sourceTree = "<group>";
+		};
+		D1FD35D226A0C9B3000050AF /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				D1FD35D326A0CA0B000050AF /* CodableBundleExtension.swift */,
+				D1FD35C22698E158000050AF /* resizeImage.swift */,
+			);
+			path = Extension;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -189,6 +236,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				D1E7E834268E3EF2008BA8C8 /* Preview Assets.xcassets in Resources */,
+				D1FD35D826A0FC73000050AF /* filters.json in Resources */,
+				D1FD35CF26A0BFE7000050AF /* covers.json in Resources */,
 				D1E7E831268E3EF2008BA8C8 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -201,13 +250,24 @@
 			buildActionMask = 2147483647;
 			files = (
 				D1E7E82F268E3EF0008BA8C8 /* ContentView.swift in Sources */,
+				D1FD35DA26A0FD08000050AF /* filterModel.swift in Sources */,
+				D1FD35DE26A12B69000050AF /* FilterGridItemView.swift in Sources */,
+				D1FD35C726A081CA000050AF /* CameraView.swift in Sources */,
+				D1FD35C526A080FB000050AF /* MainView.swift in Sources */,
 				D1E7E840268E9776008BA8C8 /* StartButtonView.swift in Sources */,
+				D1FD35D626A0D485000050AF /* FiltersView.swift in Sources */,
+				D1FD35D426A0CA0B000050AF /* CodableBundleExtension.swift in Sources */,
+				D1FD35C926A081F2000050AF /* GalleryView.swift in Sources */,
 				D1E7E847268F66D0008BA8C8 /* OnboardingModel.swift in Sources */,
 				D1E7E84E2690DF72008BA8C8 /* ImagePicker.swift in Sources */,
 				D1E7E82D268E3EF0008BA8C8 /* PhotoEditorApp.swift in Sources */,
 				D1E7E842268EA427008BA8C8 /* OnboardingView.swift in Sources */,
+				D1FD35CD26A0ABAF000050AF /* CoverImageView.swift in Sources */,
+				D1FD35CB26A0820D000050AF /* SettingsView.swift in Sources */,
 				D1E7E84C268FD6AF008BA8C8 /* LogoView.swift in Sources */,
 				D1E7E8502690DFB8008BA8C8 /* ImageSaver.swift in Sources */,
+				D1FD35DC26A10FF9000050AF /* filterView.swift in Sources */,
+				D1FD35D126A0C058000050AF /* coverImageModel.swift in Sources */,
 				D1E7E8522690E031008BA8C8 /* starynight.mlmodel in Sources */,
 				D1FD35C32698E158000050AF /* resizeImage.swift in Sources */,
 				D1E7E83E268E8786008BA8C8 /* onboardingCardView.swift in Sources */,

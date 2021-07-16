@@ -24,10 +24,10 @@ struct onboardingCardView: View {
                 Spacer()
                 VStack(spacing: 20) {
                     Text(onboarding.headline)
-                        .font(.headline)
+                        .font(.title2)
                         .foregroundColor(.white)
                         .shadow(color: Color(red: 0, green: 0, blue: 0, opacity: 0.15), radius:2, x: 2, y: 2 )
-                        .multilineTextAlignment(.leading)
+                        .multilineTextAlignment(.center)
                         .frame(maxWidth: 400)
                         StartButtonView()
                 }.padding(.bottom, 100)
