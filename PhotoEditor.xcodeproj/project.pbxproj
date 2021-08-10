@@ -7,6 +7,24 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		D18F405C26B9D4FD00549FAE /* processingFilter.swift in Sources */ = {isa = PBXBuildFile; fileRef = D18F405B26B9D4FD00549FAE /* processingFilter.swift */; };
+		D18F406226BB470D00549FAE /* CategoryItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = D18F406126BB470D00549FAE /* CategoryItem.swift */; };
+		D18F406626BB8BC600549FAE /* colorMonet.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = D18F406526BB8BC600549FAE /* colorMonet.mlmodel */; };
+		D18F406826BC5F3100549FAE /* azuleijos.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = D18F406726BC5F3100549FAE /* azuleijos.mlmodel */; };
+		D18F406A26BC7CB000549FAE /* ipanema.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = D18F406926BC7CAF00549FAE /* ipanema.mlmodel */; };
+		D18F406C26BC7F4900549FAE /* anita.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = D18F406B26BC7F4900549FAE /* anita.mlmodel */; };
+		D18F406E26BC812A00549FAE /* Palatnik.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = D18F406D26BC812A00549FAE /* Palatnik.mlmodel */; };
+		D18F407026BC845300549FAE /* glitch.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = D18F406F26BC845300549FAE /* glitch.mlmodel */; };
+		D18F407226BC8D1800549FAE /* chita.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = D18F407126BC8D1700549FAE /* chita.mlmodel */; };
+		D18F407426BC910500549FAE /* watermelon.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = D18F407326BC910500549FAE /* watermelon.mlmodel */; };
+		D18F407626BC932500549FAE /* glacier.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = D18F407526BC932500549FAE /* glacier.mlmodel */; };
+		D18F407A26BC982100549FAE /* Xilo.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = D18F407926BC982100549FAE /* Xilo.mlmodel */; };
+		D18F407C26BC9B3700549FAE /* marry.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = D18F407B26BC9B3700549FAE /* marry.mlmodel */; };
+		D18F407E26BC9E5C00549FAE /* Flame.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = D18F407D26BC9E5C00549FAE /* Flame.mlmodel */; };
+		D18F408026BCA25700549FAE /* pixel.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = D18F407F26BCA25700549FAE /* pixel.mlmodel */; };
+		D18F408226BCA2D500549FAE /* unicorn.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = D18F408126BCA2D500549FAE /* unicorn.mlmodel */; };
+		D18F408826C257E600549FAE /* SettingsLabelView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D18F408726C257E600549FAE /* SettingsLabelView.swift */; };
+		D18F408A26C25D9500549FAE /* SettingsRowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D18F408926C25D9500549FAE /* SettingsRowView.swift */; };
 		D1E7E82D268E3EF0008BA8C8 /* PhotoEditorApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1E7E82C268E3EF0008BA8C8 /* PhotoEditorApp.swift */; };
 		D1E7E82F268E3EF0008BA8C8 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1E7E82E268E3EF0008BA8C8 /* ContentView.swift */; };
 		D1E7E831268E3EF2008BA8C8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D1E7E830268E3EF2008BA8C8 /* Assets.xcassets */; };
@@ -22,8 +40,6 @@
 		D1E7E8522690E031008BA8C8 /* starynight.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = D1E7E8512690E031008BA8C8 /* starynight.mlmodel */; };
 		D1FD35C32698E158000050AF /* resizeImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1FD35C22698E158000050AF /* resizeImage.swift */; };
 		D1FD35C526A080FB000050AF /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1FD35C426A080FB000050AF /* MainView.swift */; };
-		D1FD35C726A081CA000050AF /* CameraView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1FD35C626A081CA000050AF /* CameraView.swift */; };
-		D1FD35C926A081F2000050AF /* GalleryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1FD35C826A081F2000050AF /* GalleryView.swift */; };
 		D1FD35CB26A0820D000050AF /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1FD35CA26A0820D000050AF /* SettingsView.swift */; };
 		D1FD35CD26A0ABAF000050AF /* CoverImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1FD35CC26A0ABAF000050AF /* CoverImageView.swift */; };
 		D1FD35CF26A0BFE7000050AF /* covers.json in Resources */ = {isa = PBXBuildFile; fileRef = D1FD35CE26A0BFE7000050AF /* covers.json */; };
@@ -37,6 +53,24 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		D18F405B26B9D4FD00549FAE /* processingFilter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = processingFilter.swift; sourceTree = "<group>"; };
+		D18F406126BB470D00549FAE /* CategoryItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryItem.swift; sourceTree = "<group>"; };
+		D18F406526BB8BC600549FAE /* colorMonet.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = colorMonet.mlmodel; sourceTree = "<group>"; };
+		D18F406726BC5F3100549FAE /* azuleijos.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = azuleijos.mlmodel; sourceTree = "<group>"; };
+		D18F406926BC7CAF00549FAE /* ipanema.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = ipanema.mlmodel; sourceTree = "<group>"; };
+		D18F406B26BC7F4900549FAE /* anita.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = anita.mlmodel; sourceTree = "<group>"; };
+		D18F406D26BC812A00549FAE /* Palatnik.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = Palatnik.mlmodel; sourceTree = "<group>"; };
+		D18F406F26BC845300549FAE /* glitch.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = glitch.mlmodel; sourceTree = "<group>"; };
+		D18F407126BC8D1700549FAE /* chita.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = chita.mlmodel; sourceTree = "<group>"; };
+		D18F407326BC910500549FAE /* watermelon.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = watermelon.mlmodel; sourceTree = "<group>"; };
+		D18F407526BC932500549FAE /* glacier.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = glacier.mlmodel; sourceTree = "<group>"; };
+		D18F407926BC982100549FAE /* Xilo.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = Xilo.mlmodel; sourceTree = "<group>"; };
+		D18F407B26BC9B3700549FAE /* marry.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = marry.mlmodel; sourceTree = "<group>"; };
+		D18F407D26BC9E5C00549FAE /* Flame.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = Flame.mlmodel; sourceTree = "<group>"; };
+		D18F407F26BCA25700549FAE /* pixel.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = pixel.mlmodel; sourceTree = "<group>"; };
+		D18F408126BCA2D500549FAE /* unicorn.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = unicorn.mlmodel; sourceTree = "<group>"; };
+		D18F408726C257E600549FAE /* SettingsLabelView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsLabelView.swift; sourceTree = "<group>"; };
+		D18F408926C25D9500549FAE /* SettingsRowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsRowView.swift; sourceTree = "<group>"; };
 		D1E7E829268E3EF0008BA8C8 /* PhotoEditor.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PhotoEditor.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D1E7E82C268E3EF0008BA8C8 /* PhotoEditorApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoEditorApp.swift; sourceTree = "<group>"; };
 		D1E7E82E268E3EF0008BA8C8 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -54,8 +88,6 @@
 		D1E7E8512690E031008BA8C8 /* starynight.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = starynight.mlmodel; sourceTree = "<group>"; };
 		D1FD35C22698E158000050AF /* resizeImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = resizeImage.swift; sourceTree = "<group>"; };
 		D1FD35C426A080FB000050AF /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
-		D1FD35C626A081CA000050AF /* CameraView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraView.swift; sourceTree = "<group>"; };
-		D1FD35C826A081F2000050AF /* GalleryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GalleryView.swift; sourceTree = "<group>"; };
 		D1FD35CA26A0820D000050AF /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
 		D1FD35CC26A0ABAF000050AF /* CoverImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoverImageView.swift; sourceTree = "<group>"; };
 		D1FD35CE26A0BFE7000050AF /* covers.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = covers.json; sourceTree = "<group>"; };
@@ -79,6 +111,36 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		D18F405A26B9D4D600549FAE /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				D18F405B26B9D4FD00549FAE /* processingFilter.swift */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		D18F406326BB8B4300549FAE /* ML */ = {
+			isa = PBXGroup;
+			children = (
+				D18F407B26BC9B3700549FAE /* marry.mlmodel */,
+				D18F407D26BC9E5C00549FAE /* Flame.mlmodel */,
+				D18F407926BC982100549FAE /* Xilo.mlmodel */,
+				D18F407126BC8D1700549FAE /* chita.mlmodel */,
+				D18F406D26BC812A00549FAE /* Palatnik.mlmodel */,
+				D18F408126BCA2D500549FAE /* unicorn.mlmodel */,
+				D18F406926BC7CAF00549FAE /* ipanema.mlmodel */,
+				D18F407F26BCA25700549FAE /* pixel.mlmodel */,
+				D18F406726BC5F3100549FAE /* azuleijos.mlmodel */,
+				D18F406B26BC7F4900549FAE /* anita.mlmodel */,
+				D18F406526BB8BC600549FAE /* colorMonet.mlmodel */,
+				D1E7E8512690E031008BA8C8 /* starynight.mlmodel */,
+				D18F406F26BC845300549FAE /* glitch.mlmodel */,
+				D18F407526BC932500549FAE /* glacier.mlmodel */,
+				D18F407326BC910500549FAE /* watermelon.mlmodel */,
+			);
+			path = ML;
+			sourceTree = "<group>";
+		};
 		D1E7E820268E3EF0008BA8C8 = {
 			isa = PBXGroup;
 			children = (
@@ -98,8 +160,9 @@
 		D1E7E82B268E3EF0008BA8C8 /* PhotoEditor */ = {
 			isa = PBXGroup;
 			children = (
+				D18F405A26B9D4D600549FAE /* Classes */,
 				D1FD35D226A0C9B3000050AF /* Extension */,
-				D1E7E8512690E031008BA8C8 /* starynight.mlmodel */,
+				D18F406326BB8B4300549FAE /* ML */,
 				D1E7E848268F67F1008BA8C8 /* Data */,
 				D1E7E845268F668D008BA8C8 /* Model */,
 				D1E7E83C268E8741008BA8C8 /* View */,
@@ -128,8 +191,6 @@
 				D1E7E84D2690DF72008BA8C8 /* ImagePicker.swift */,
 				D1E7E84F2690DFB8008BA8C8 /* ImageSaver.swift */,
 				D1FD35C426A080FB000050AF /* MainView.swift */,
-				D1FD35C626A081CA000050AF /* CameraView.swift */,
-				D1FD35C826A081F2000050AF /* GalleryView.swift */,
 				D1FD35CA26A0820D000050AF /* SettingsView.swift */,
 				D1FD35D526A0D485000050AF /* FiltersView.swift */,
 			);
@@ -145,6 +206,9 @@
 				D1FD35CC26A0ABAF000050AF /* CoverImageView.swift */,
 				D1FD35DB26A10FF9000050AF /* filterView.swift */,
 				D1FD35DD26A12B69000050AF /* FilterGridItemView.swift */,
+				D18F406126BB470D00549FAE /* CategoryItem.swift */,
+				D18F408726C257E600549FAE /* SettingsLabelView.swift */,
+				D18F408926C25D9500549FAE /* SettingsRowView.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -250,25 +314,41 @@
 			buildActionMask = 2147483647;
 			files = (
 				D1E7E82F268E3EF0008BA8C8 /* ContentView.swift in Sources */,
+				D18F408A26C25D9500549FAE /* SettingsRowView.swift in Sources */,
 				D1FD35DA26A0FD08000050AF /* filterModel.swift in Sources */,
+				D18F407E26BC9E5C00549FAE /* Flame.mlmodel in Sources */,
 				D1FD35DE26A12B69000050AF /* FilterGridItemView.swift in Sources */,
-				D1FD35C726A081CA000050AF /* CameraView.swift in Sources */,
+				D18F406226BB470D00549FAE /* CategoryItem.swift in Sources */,
+				D18F405C26B9D4FD00549FAE /* processingFilter.swift in Sources */,
 				D1FD35C526A080FB000050AF /* MainView.swift in Sources */,
 				D1E7E840268E9776008BA8C8 /* StartButtonView.swift in Sources */,
 				D1FD35D626A0D485000050AF /* FiltersView.swift in Sources */,
 				D1FD35D426A0CA0B000050AF /* CodableBundleExtension.swift in Sources */,
-				D1FD35C926A081F2000050AF /* GalleryView.swift in Sources */,
+				D18F407A26BC982100549FAE /* Xilo.mlmodel in Sources */,
+				D18F407026BC845300549FAE /* glitch.mlmodel in Sources */,
+				D18F406A26BC7CB000549FAE /* ipanema.mlmodel in Sources */,
 				D1E7E847268F66D0008BA8C8 /* OnboardingModel.swift in Sources */,
 				D1E7E84E2690DF72008BA8C8 /* ImagePicker.swift in Sources */,
+				D18F408226BCA2D500549FAE /* unicorn.mlmodel in Sources */,
 				D1E7E82D268E3EF0008BA8C8 /* PhotoEditorApp.swift in Sources */,
+				D18F407626BC932500549FAE /* glacier.mlmodel in Sources */,
+				D18F406C26BC7F4900549FAE /* anita.mlmodel in Sources */,
 				D1E7E842268EA427008BA8C8 /* OnboardingView.swift in Sources */,
+				D18F408826C257E600549FAE /* SettingsLabelView.swift in Sources */,
 				D1FD35CD26A0ABAF000050AF /* CoverImageView.swift in Sources */,
+				D18F406826BC5F3100549FAE /* azuleijos.mlmodel in Sources */,
 				D1FD35CB26A0820D000050AF /* SettingsView.swift in Sources */,
+				D18F407426BC910500549FAE /* watermelon.mlmodel in Sources */,
 				D1E7E84C268FD6AF008BA8C8 /* LogoView.swift in Sources */,
+				D18F406626BB8BC600549FAE /* colorMonet.mlmodel in Sources */,
 				D1E7E8502690DFB8008BA8C8 /* ImageSaver.swift in Sources */,
+				D18F408026BCA25700549FAE /* pixel.mlmodel in Sources */,
 				D1FD35DC26A10FF9000050AF /* filterView.swift in Sources */,
 				D1FD35D126A0C058000050AF /* coverImageModel.swift in Sources */,
+				D18F407226BC8D1800549FAE /* chita.mlmodel in Sources */,
 				D1E7E8522690E031008BA8C8 /* starynight.mlmodel in Sources */,
+				D18F407C26BC9B3700549FAE /* marry.mlmodel in Sources */,
+				D18F406E26BC812A00549FAE /* Palatnik.mlmodel in Sources */,
 				D1FD35C32698E158000050AF /* resizeImage.swift in Sources */,
 				D1E7E83E268E8786008BA8C8 /* onboardingCardView.swift in Sources */,
 				D1E7E84A268F6813008BA8C8 /* OnboardingData.swift in Sources */,

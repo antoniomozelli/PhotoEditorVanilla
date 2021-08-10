@@ -18,6 +18,7 @@ struct FiltersView: View {
     
     var body: some View {
         NavigationView{
+          
             Group{
                 if !isGridViewActive {
                     List{
@@ -73,7 +74,7 @@ struct FiltersView: View {
                 }
             }
             }
-        }
+             }
     }
 }
 

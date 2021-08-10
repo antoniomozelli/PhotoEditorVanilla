@@ -8,27 +8,20 @@
 import SwiftUI
 
 struct MainView: View {
+    
+
     var body: some View {
         TabView{
-            CameraView()
-                .tabItem{
-                    Image(systemName: "camera")
-                    Text("Camera")
-                }
-            FiltersView()
+            
+            ContentView()
                 .tabItem{
                     Image(systemName: "paintbrush.pointed")
                     Text("Filters")
                 }
-            GalleryView()
-                .tabItem{
-                    Image(systemName: "photo.on.rectangle")
-                    Text("Gallery")
-                }
             SettingsView()
                 .tabItem{
-                    Image(systemName: "gearshape")
-                    Text("Settings")
+                    Image(systemName: "info.circle")
+                    Text("Info")
                 }
         }
         
@@ -36,6 +29,9 @@ struct MainView: View {
 }
 
 struct MainView_Previews: PreviewProvider {
+    
+    static let filters: [Filter] = Bundle.main.decode("filters.json")
+    
     static var previews: some View {
         MainView()
     }

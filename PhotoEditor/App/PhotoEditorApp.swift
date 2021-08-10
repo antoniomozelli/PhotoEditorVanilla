@@ -6,7 +6,6 @@
 //
 
 import SwiftUI
-
 @main
 struct PhotoEditorApp: App {
     
