@@ -28,9 +28,10 @@ struct onboardingCardView: View {
                         .foregroundColor(.white)
                         .shadow(color: Color(red: 0, green: 0, blue: 0, opacity: 0.15), radius:2, x: 2, y: 2 )
                         .multilineTextAlignment(.center)
-                        .frame(maxWidth: 400)
+                        .frame(maxWidth: 300)
+                        
                         StartButtonView()
-                }.padding(.bottom, 100)
+                }.padding(.bottom, 80)
             }
             .onAppear{
                 //withAnimation(.easeOut(duration: 0.5)){
@@ -47,7 +48,7 @@ struct onboardingCardView: View {
 
 struct onboardingCardView_Previews: PreviewProvider {
     static var previews: some View {
-        onboardingCardView(onboarding: onboardingData[1])
+        onboardingCardView(onboarding: onboardingData[0])
             .previewLayout(.fixed(width: 320, height: 640))
     }
 }
