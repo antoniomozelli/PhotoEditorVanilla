@@ -12,11 +12,12 @@ struct Filter: Codable, Identifiable{
     let name : String
     let image : String
     
-    let category: Category
+    /*let category: Category
     enum Category: String, CaseIterable, Codable {
         case fun = "Fun"
         case dark = "Dark"
         case happy = "Happy"
     }
+ */
     let number : String
 }

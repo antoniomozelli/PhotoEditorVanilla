@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		D116808A270E214000D3161F /* covers.json in Resources */ = {isa = PBXBuildFile; fileRef = D1168089270E214000D3161F /* covers.json */; };
+		D116808C270E24FB00D3161F /* filters.json in Resources */ = {isa = PBXBuildFile; fileRef = D116808B270E24FB00D3161F /* filters.json */; };
 		D18F405C26B9D4FD00549FAE /* processingFilter.swift in Sources */ = {isa = PBXBuildFile; fileRef = D18F405B26B9D4FD00549FAE /* processingFilter.swift */; };
 		D18F406226BB470D00549FAE /* CategoryItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = D18F406126BB470D00549FAE /* CategoryItem.swift */; };
 		D18F406626BB8BC600549FAE /* colorMonet.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = D18F406526BB8BC600549FAE /* colorMonet.mlmodel */; };
@@ -42,17 +44,17 @@
 		D1FD35C526A080FB000050AF /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1FD35C426A080FB000050AF /* MainView.swift */; };
 		D1FD35CB26A0820D000050AF /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1FD35CA26A0820D000050AF /* SettingsView.swift */; };
 		D1FD35CD26A0ABAF000050AF /* CoverImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1FD35CC26A0ABAF000050AF /* CoverImageView.swift */; };
-		D1FD35CF26A0BFE7000050AF /* covers.json in Resources */ = {isa = PBXBuildFile; fileRef = D1FD35CE26A0BFE7000050AF /* covers.json */; };
 		D1FD35D126A0C058000050AF /* coverImageModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1FD35D026A0C058000050AF /* coverImageModel.swift */; };
 		D1FD35D426A0CA0B000050AF /* CodableBundleExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1FD35D326A0CA0B000050AF /* CodableBundleExtension.swift */; };
 		D1FD35D626A0D485000050AF /* FiltersView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1FD35D526A0D485000050AF /* FiltersView.swift */; };
-		D1FD35D826A0FC73000050AF /* filters.json in Resources */ = {isa = PBXBuildFile; fileRef = D1FD35D726A0FC73000050AF /* filters.json */; };
 		D1FD35DA26A0FD08000050AF /* filterModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1FD35D926A0FD08000050AF /* filterModel.swift */; };
 		D1FD35DC26A10FF9000050AF /* filterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1FD35DB26A10FF9000050AF /* filterView.swift */; };
 		D1FD35DE26A12B69000050AF /* FilterGridItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1FD35DD26A12B69000050AF /* FilterGridItemView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		D1168089270E214000D3161F /* covers.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = covers.json; sourceTree = "<group>"; };
+		D116808B270E24FB00D3161F /* filters.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = filters.json; sourceTree = "<group>"; };
 		D18F405B26B9D4FD00549FAE /* processingFilter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = processingFilter.swift; sourceTree = "<group>"; };
 		D18F406126BB470D00549FAE /* CategoryItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryItem.swift; sourceTree = "<group>"; };
 		D18F406526BB8BC600549FAE /* colorMonet.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = colorMonet.mlmodel; sourceTree = "<group>"; };
@@ -90,11 +92,9 @@
 		D1FD35C426A080FB000050AF /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
 		D1FD35CA26A0820D000050AF /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
 		D1FD35CC26A0ABAF000050AF /* CoverImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoverImageView.swift; sourceTree = "<group>"; };
-		D1FD35CE26A0BFE7000050AF /* covers.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = covers.json; sourceTree = "<group>"; };
 		D1FD35D026A0C058000050AF /* coverImageModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = coverImageModel.swift; sourceTree = "<group>"; };
 		D1FD35D326A0CA0B000050AF /* CodableBundleExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CodableBundleExtension.swift; sourceTree = "<group>"; };
 		D1FD35D526A0D485000050AF /* FiltersView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FiltersView.swift; sourceTree = "<group>"; };
-		D1FD35D726A0FC73000050AF /* filters.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = filters.json; sourceTree = "<group>"; };
 		D1FD35D926A0FD08000050AF /* filterModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = filterModel.swift; sourceTree = "<group>"; };
 		D1FD35DB26A10FF9000050AF /* filterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = filterView.swift; sourceTree = "<group>"; };
 		D1FD35DD26A12B69000050AF /* FilterGridItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FilterGridItemView.swift; sourceTree = "<group>"; };
@@ -226,8 +226,8 @@
 		D1E7E848268F67F1008BA8C8 /* Data */ = {
 			isa = PBXGroup;
 			children = (
-				D1FD35D726A0FC73000050AF /* filters.json */,
-				D1FD35CE26A0BFE7000050AF /* covers.json */,
+				D116808B270E24FB00D3161F /* filters.json */,
+				D1168089270E214000D3161F /* covers.json */,
 				D1E7E849268F6813008BA8C8 /* OnboardingData.swift */,
 			);
 			path = Data;
@@ -299,9 +299,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D116808A270E214000D3161F /* covers.json in Resources */,
 				D1E7E834268E3EF2008BA8C8 /* Preview Assets.xcassets in Resources */,
-				D1FD35D826A0FC73000050AF /* filters.json in Resources */,
-				D1FD35CF26A0BFE7000050AF /* covers.json in Resources */,
+				D116808C270E24FB00D3161F /* filters.json in Resources */,
 				D1E7E831268E3EF2008BA8C8 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
