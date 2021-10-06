@@ -27,6 +27,9 @@
 		D18F408226BCA2D500549FAE /* unicorn.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = D18F408126BCA2D500549FAE /* unicorn.mlmodel */; };
 		D18F408826C257E600549FAE /* SettingsLabelView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D18F408726C257E600549FAE /* SettingsLabelView.swift */; };
 		D18F408A26C25D9500549FAE /* SettingsRowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D18F408926C25D9500549FAE /* SettingsRowView.swift */; };
+		D1C3986F26C6EBDE00F8376D /* subscriptionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1C3986E26C6EBDE00F8376D /* subscriptionView.swift */; };
+		D1C3987126C7017500F8376D /* SubscriptionButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1C3987026C7017500F8376D /* SubscriptionButton.swift */; };
+		D1C3987326C715C500F8376D /* TextcarouselView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1C3987226C715C500F8376D /* TextcarouselView.swift */; };
 		D1E7E82D268E3EF0008BA8C8 /* PhotoEditorApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1E7E82C268E3EF0008BA8C8 /* PhotoEditorApp.swift */; };
 		D1E7E82F268E3EF0008BA8C8 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1E7E82E268E3EF0008BA8C8 /* ContentView.swift */; };
 		D1E7E831268E3EF2008BA8C8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D1E7E830268E3EF2008BA8C8 /* Assets.xcassets */; };
@@ -73,6 +76,9 @@
 		D18F408126BCA2D500549FAE /* unicorn.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = unicorn.mlmodel; sourceTree = "<group>"; };
 		D18F408726C257E600549FAE /* SettingsLabelView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsLabelView.swift; sourceTree = "<group>"; };
 		D18F408926C25D9500549FAE /* SettingsRowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsRowView.swift; sourceTree = "<group>"; };
+		D1C3986E26C6EBDE00F8376D /* subscriptionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = subscriptionView.swift; sourceTree = "<group>"; };
+		D1C3987026C7017500F8376D /* SubscriptionButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SubscriptionButton.swift; sourceTree = "<group>"; };
+		D1C3987226C715C500F8376D /* TextcarouselView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextcarouselView.swift; sourceTree = "<group>"; };
 		D1E7E829268E3EF0008BA8C8 /* PhotoEditor.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PhotoEditor.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D1E7E82C268E3EF0008BA8C8 /* PhotoEditorApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoEditorApp.swift; sourceTree = "<group>"; };
 		D1E7E82E268E3EF0008BA8C8 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -209,6 +215,9 @@
 				D18F406126BB470D00549FAE /* CategoryItem.swift */,
 				D18F408726C257E600549FAE /* SettingsLabelView.swift */,
 				D18F408926C25D9500549FAE /* SettingsRowView.swift */,
+				D1C3986E26C6EBDE00F8376D /* subscriptionView.swift */,
+				D1C3987026C7017500F8376D /* SubscriptionButton.swift */,
+				D1C3987226C715C500F8376D /* TextcarouselView.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -314,7 +323,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				D1E7E82F268E3EF0008BA8C8 /* ContentView.swift in Sources */,
+				D1C3986F26C6EBDE00F8376D /* subscriptionView.swift in Sources */,
 				D18F408A26C25D9500549FAE /* SettingsRowView.swift in Sources */,
+				D1C3987326C715C500F8376D /* TextcarouselView.swift in Sources */,
 				D1FD35DA26A0FD08000050AF /* filterModel.swift in Sources */,
 				D18F407E26BC9E5C00549FAE /* Flame.mlmodel in Sources */,
 				D1FD35DE26A12B69000050AF /* FilterGridItemView.swift in Sources */,
@@ -351,6 +362,7 @@
 				D18F406E26BC812A00549FAE /* Palatnik.mlmodel in Sources */,
 				D1FD35C32698E158000050AF /* resizeImage.swift in Sources */,
 				D1E7E83E268E8786008BA8C8 /* onboardingCardView.swift in Sources */,
+				D1C3987126C7017500F8376D /* SubscriptionButton.swift in Sources */,
 				D1E7E84A268F6813008BA8C8 /* OnboardingData.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

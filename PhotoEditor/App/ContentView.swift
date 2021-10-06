@@ -318,7 +318,7 @@ struct ContentView: View {
                     print("CoreML Model Error: \(error)")
                 }
             }
-        case "12":
+        case "11":
             let model = glitch()
             let img = inputImage
             if img != nil{
@@ -337,7 +337,7 @@ struct ContentView: View {
                     print("CoreML Model Error: \(error)")
                 }
             }
-        case "13":
+        case "12":
             let model = marry()
             let img = inputImage
             if img != nil{
@@ -356,7 +356,7 @@ struct ContentView: View {
                     print("CoreML Model Error: \(error)")
                 }
             }
-        case "14":
+        case "13":
             let model = pixel()
             let img = inputImage
             if img != nil{
@@ -375,7 +375,7 @@ struct ContentView: View {
                     print("CoreML Model Error: \(error)")
                 }
             }
-        case "15":
+        case "14":
             let model = starynight()
             let img = inputImage
             if img != nil{
